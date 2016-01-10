@@ -1,0 +1,149 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	background-color:#333333;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size:64px;
+}
+
+p {
+	max-width:700px;
+	margin: 0 auto;
+	font-family: Belizio, Georgia, serif;
+	font-size: 20px;
+    line-height: 36px;
+	color: black;
+    padding: 50px;
+	background-color:#FFFFFF;
+	
+}
+
+.message {
+	background-color: #66B566;
+    padding: 10px 50px;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+#vendorReviewForm {
+	display:none;
+}
+
+.showSubmissionForm {
+	cursor:pointer;
+}
+
+.submission_vendorReviewContent {
+	font-family: Belizio, Georgia, serif;
+    font-size: 20px;
+    line-height: 36px;
+    color: black;
+    padding: 50px;
+    background-color: #FFFFFF;
+	resize:vertical;
+	max-width: 700px;
+    margin: 0 auto;
+	white-space:pre-wrap;
+}
+
+.submission_vendorReviewFormat {
+	border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: rgb(17, 115, 102);
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px 50px;
+	overflow:hidden;
+	color:white;
+}
+
+#submission_vendorReviewSubmit,
+#submission_vendorReviewFix {
+	float:right;
+	margin-right:10px;
+	padding:5px;
+}
+
+.submission_instructions {
+	width:400px;
+	display:inline-block;
+	font-size: 12px;
+}
+
+	
+.spacer_100 {
+	height:100px;
+}
+
+.spacer_150 {
+	height:150px;
+}
+
+
+.result_container {
+	width:900px;
+	margin:0 auto;
+}
+
+.restaurant_result_large {
+	padding: 30px;
+    width: 93%;
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 200px;
+	margin-bottom:30px;
+}
+
+.restaurant_result_large img {
+	float:right;
+}
+
+.search {
+	max-width: 700px;
+    margin: 0 auto;
+}
+
+.search_bar {
+	width: 70%;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.search_loc {
+	width: 23%; 
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.search_button {
+	background-color: inherit;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 3px;
+    float:right;
+	cursor:pointer;
+}
+
+.search_button:hover {
+	background-color:white;
+	color:black;
+}

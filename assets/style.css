@@ -1,0 +1,203 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+span {
+	display:inline-block;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+
+/* index */
+
+.index_contentArea {
+	width: 1220px;
+	margin:0 auto;
+}
+
+.index_header {
+	width:100%;
+	padding:15px 0;
+	color:white;
+	position:relative;
+	background-color:rgba(0, 0, 0, 0.45);
+}
+
+.index_img_spread {
+	background-image:url('./foodbah_bg_mini.jpg');
+	background-size:cover;
+	height:80vh;
+}
+
+.index_logo {
+	font-size:1.3em;
+	margin: 7px 0;
+}
+
+.index_signUp {
+	float:right;
+	padding:7px;
+	border:3px solid white;
+	border-radius:4px;
+}
+
+.index_signUp:hover {
+	background-color:white;
+	color:#333333;
+}
+
+.index_signIn {
+	display:inline-block;
+	float:right;
+	margin:10px 0;
+	margin-right:25px;
+}
+
+.index_signIn:hover {
+	text-decoration:underline;
+}
+
+.index_introAbout {
+	position:relative;
+	top:18%;
+	width:100%;
+	max-width:1220px;
+	margin:0 auto;
+}
+
+.index_introAboutText {
+	width:550px;
+	float:left;
+	text-shadow: black 1px 1px;
+}
+
+.index_quickRegistration {
+	font-size:13px;
+	color:#333333;
+	width:400px;
+	float:right;
+	padding-bottom:45px;
+	margin-right:150px;
+	background-color:rgba(0, 0, 0, 0.3);
+	border-radius:4px;
+}
+
+.index_quickRegistrationHeader {
+	font-size:17px;
+	margin:10px;
+	color:white;
+	position:relative;
+	top:20px;
+	left:20px;
+}
+
+.index_quickRegistrationForm {
+	width:80%;
+	margin:0 auto;
+	margin-top:25px;
+}
+
+.index_quickRegistration input[type="text"] {
+	margin:2px 0;
+	padding: 10px 3px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #CCC;
+}
+
+.index_quickRegistration input[type="submit"] {
+	padding: 10px 0;
+	float:right;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+	border:0;
+	background-color:#E32636;
+	width:100%;
+	cursor:pointer;
+}
+
+.index_quickRegistration input[type="submit"]:hover {
+	background-color:rgb(255, 14, 35);
+	
+}
+
+.index_quickRegistration .alt {
+	width:150px;
+}
+
+.index_quickRegistration .reg {
+	width:310px;
+}
+
+
+.index_introVerbose {
+	padding: 50px 0;
+	margin-left:50px;
+}
+
+.index_searchArea {
+	background-color:#DDDDDD;
+}
+
+.index_searchArea input[type="text"] {
+	width:650px;
+	padding: 10px 3px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #CCC;
+}
+
+.index_searchArea input[type="submit"] {
+	padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+	border:0;
+	background-color:#E32636;
+	width:250px;
+	cursor:pointer;
+}
+
+.index_p {
+	max-width:750px;
+}
+
+.index_searchArea input[type="submit"]:hover {
+	background-color:rgb(255, 14, 35);
+}
+
+.index_searchHeader {
+	margin-bottom:10px;
+}
+
+.index_searchInner {
+	padding:70px;
+	margin:100px auto;
+	background-color:#999999;
+	
+}
+
+
+
+.index_big {
+	color:white;
+	font-size:3em;
+	margin-bottom:7px;
+}
+
+.index_medium {
+	color:white;
+	line-height:25px;
+}
